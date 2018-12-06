@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Gettin' Giphy with it</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/app.js"></script>
+ </head>
+<!---Jumbotron-->
+<body>
+  <header>
+    <div class="jumbotron jumbotron-fluid"id="jumbo">
+      <div class="container">
+        <div id="box1">
+          <h1><u class="display-4">Animals That Are Brown!</u></h1>
+          <h3> Your #1 site to search gifs of animals that are brown!</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+<!------------End of Header----------------------------------------------------->
+  <div>
+    <form id="animal-form">
+      <label for="animal-input">Search for a Gif and click the corresponding button to see some gifs!</label>
+      <br>
+      <input type="text" id="animal-input" placeholder="Search">
+      <input id="add-gif" class="btn btn-primary" value="Search Animal">
+    </form>
+  </div>
+  <div class="row">
+    <div class="container">
+      <div id="buttons"></div>
+    </div> 
+  </div> 
+  </div> 
+  <div class="row">
+    <div class="container">
+      <div id="gifs"></div>
+    </div> 
+  </div> 
+</body>
+</html>

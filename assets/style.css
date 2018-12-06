@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(117, 177, 247);
+    font-family: 'Slabo 27px', serif;
+}
+#animal-form {
+    margin-left:35%;
+}
+#jumbo{
+    background-image: url("https://www.freewordpressheaders.com/wp-content/gallery/farm-animals-headers/sky-and-red-young-cow-website-header.jpg");
+    background-size: 100% 100%;
+}
+#box1{
+    font-family: 'Indie Flower', cursive;
+}
+
+#gifs{
+    margin-top: 10px;
+}
+img{
+    margin-top: 10px;
+    height: 300px;
+    width: 350px;
+    float: left;
+    border: solid white 3px;
+    margin: 5px;
+}
+button{
+    color: white;
+    margin-left: 2px;
+    margin-top: 10px;
+    background-color: rgba(50, 91, 206, 0.829);
+    border-radius: 10px;
+}
+#animal-input{
+    border-radius: 10px;
+}
+label{
+    text-decoration: underline;
+    font-size: 20px;
+}
+#add-gif{
+    height: 30px;
+}
